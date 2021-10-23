@@ -5,3 +5,10 @@ default via 192.168.0.1 dev enp0s3 proto dhcp metric 100
 192.168.0.0/24 dev enp0s3 proto kernel scope link src 192.168.0.98 metric 100 
 vie 22 oct 2021 22:42:47 -03
 
+ 
+Francisco Diaz B. - GAMMA
+default via 192.168.0.1 dev enp0s3 proto dhcp metric 100 
+169.254.0.0/16 dev enp0s3 scope link metric 1000 
+192.168.0.0/24 dev enp0s3 proto kernel scope link src 192.168.0.13 metric 100 
+sáb 23 oct 2021 16:13:13 -03
+ 
